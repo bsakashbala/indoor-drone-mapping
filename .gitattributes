@@ -8,3 +8,8 @@
 *.png binary
 *.pgm binary
 
+# Preserve imported documents and recorded map metadata byte for byte.
+docs/CONVERSATION_TRANSCRIPT.md -text
+reports/Project_Report.md -text
+examples/recorded_runs/*/map.yaml -text
+
