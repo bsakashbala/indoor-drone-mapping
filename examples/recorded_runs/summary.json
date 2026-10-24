@@ -1,0 +1,23 @@
+{
+  "empty": {
+    "completed": true,
+    "collision_events": 0,
+    "minimum_surface_clearance_m": 0.3433097634658113,
+    "simulation_seconds": 182.75,
+    "measurements": 14620,
+    "evaluated_open_interior_cells": 5776,
+    "unknown_open_interior_cells": 0,
+    "maximum_recorded_range_m": 1.0
+  },
+  "partition": {
+    "completed": true,
+    "collision_events": 0,
+    "minimum_surface_clearance_m": 0.30157032178369875,
+    "simulation_seconds": 422.5,
+    "measurements": 33800,
+    "evaluated_open_interior_cells": 5596,
+    "unknown_open_interior_cells": 0,
+    "maximum_recorded_range_m": 1.0
+  },
+  "automated_tests_passed": 17
+}
