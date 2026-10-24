@@ -1,0 +1,21 @@
+# Environments and local secrets
+.venv/
+.deps/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python and local editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# New runs and generated packages (recorded examples remain tracked)
+output/
+dist/
+*.log
+

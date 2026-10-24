@@ -1,0 +1,6 @@
+# Checked public-package environment: Python 3.12.14 on Windows, 24 October 2026.
+# Direct requirements and transitive connector dependencies are pinned here.
+cbor==1.0.0
+coppeliasim-zmqremoteapi-client==2.0.4
+Pillow==13.0.0
+pyzmq==27.2.0
