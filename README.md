@@ -300,7 +300,7 @@ The open-interior evaluation excludes a **10 cm outer-wall band** and a **5 cm s
 - [Contribution guide](CONTRIBUTING.md)
 - [Publishing instructions](docs/PUBLISHING.md)
 
-Our team presentation lists **Bhavesh Sharma, Priyanshu Yadav, Atharva Joshi and Akash Bala**. The suggested explanation split is documented separately; it is not an invented record of individual code contributions. AI assistance was used during development and documentation; the conversation records that process. Students reproducing the project should read the code, run the tests and understand the limits before presenting it as their work.
+Our team presentation lists **Bhavesh Sharma, Priyanshu Yadav, Atharva Joshi and Akash Bala**. AI assistance was used during development and documentation; the conversation records that process. Students reproducing the project should read the code, run the tests and understand the limits before presenting it as their work.
 
 Our original code and documentation use the [MIT license](LICENSE). The built-in drone/controller and simulator remain attributed to Coppelia Robotics under their upstream terms. See [third-party notices](THIRD_PARTY_NOTICES.md). Do not interpret a public repository as a change to CoppeliaSim Edu's eligibility or commercial-use rules.
 
