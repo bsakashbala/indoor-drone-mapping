@@ -61,6 +61,6 @@ Confirm `mode`, `completed`, `failure`, `collision_events` and the sensor range 
 
 ## Packaging and automation limits
 
-The GitHub Actions workflow is configured to run unit tests and committed evidence checks on Python 3.10 and 3.12. The workflow has not been run on GitHub as part of local preparation. It deliberately does not install CoppeliaSim or claim new physics validation. Local validation was on Windows/Python 3.12; Linux and Python 3.10 workflow results must be checked after publication.
+The GitHub Actions workflow runs unit tests and committed evidence checks on Python 3.10 and 3.12. During publication, the first run passed the Python 3.12 checks but found that Pillow 13 requires Python 3.11 or newer. The lock file therefore selects Pillow 12.0.0 for Python 3.10 and Pillow 13.0.0 for newer Python. Both pins satisfy their upstream Python requirements. Current GitHub checks provide the Linux verification for those two branches; local validation used Windows/Python 3.12. The workflow uses the current v7 checkout and Python-setup actions and deliberately does not install CoppeliaSim or claim new physics validation.
 
 This repository is a student demonstration with exact pose, ideal rays, static test layouts and a known work area. Coverage completion, sensing realism and collision avoidance require broader experiments before general claims are appropriate.
